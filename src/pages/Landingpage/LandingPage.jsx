@@ -135,6 +135,8 @@ const LandingPage = () => {
         </div>
       </section>
 
+          {/* Carousel */}
+
 
 
       <div className="container my-5">
@@ -190,6 +192,19 @@ const LandingPage = () => {
         </div>
       </div>
 
+
+
+ <div className="hero-container">
+      <h1 className="hero-title">Experience the Game</h1>
+      <h2 className="hero-subtitle">Reserve Your Perfect Sports Arena Now</h2>
+      <p className="hero-description">
+        Seamlessly discover and book the best turfs and grounds in your city – elevate your
+        game, your way.
+      </p>
+    </div>
+
+
+  
     
       {/* <Landingpage_Footer /> */}
 

@@ -305,6 +305,40 @@
 }
 
 
+.hero-container {
+  
+  background: rgb(20, 156, 202); /* no duplication */
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  color: white;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.hero-description {
+  max-width: 600px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: rgb(42, 170, 187); 
@@ -313,6 +347,9 @@
     margin: 5px;
     border-radius: 20px;
 }
+
+
+
 
 
 
