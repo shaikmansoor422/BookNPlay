@@ -1,5 +1,5 @@
 import { useInView } from 'react-intersection-observer';
-import reviewsData from './LandingpageReviewsdata';
+import reviewsData from '../../data/LandingpageReviewsdata';
 import { FaSearchLocation, FaRegCalendarCheck, FaRunning } from 'react-icons/fa';
 import { FaMapMarkedAlt, FaUsers, FaHandshake } from 'react-icons/fa';
 import { Link } from "react-router-dom";
@@ -189,6 +189,8 @@ const LandingPage = () => {
           </button>
         </div>
       </div>
+
+    
       {/* <Landingpage_Footer /> */}
 
 
